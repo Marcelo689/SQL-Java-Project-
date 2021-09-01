@@ -5,7 +5,7 @@
  */
 package view;
 
-import static controller.Listar.ListarAll;
+import static model.dao.Listar.ListarAll;
 import java.awt.List;
 import java.util.ArrayList;
 import java.util.Iterator;

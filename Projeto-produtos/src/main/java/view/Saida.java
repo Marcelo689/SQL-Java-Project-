@@ -4,15 +4,16 @@
  * and open the template in the editor.
  */
 package view;
-import static controller.Listar.ListarSaldo;
-import static controller.saida.ListarCodigosEstoque;
-import static controller.saida.Saida;
+import static model.dao.Listar.ListarSaldo;
+import static model.dao.saida.ListarCodigosEstoque;
+import static model.dao.saida.Saida;
 import java.text.ParseException;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Iterator;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import static javax.swing.JOptionPane.showMessageDialog;
 
 /**
  *
@@ -208,6 +209,8 @@ public class Saida extends javax.swing.JFrame {
 
             txtFQuant.setText("");
             txtFData.setText("");
+        }else{
+            showMessageDialog(null,"Número de produtos inferior a saida!");
         }
         
         // Atualizar comboBox

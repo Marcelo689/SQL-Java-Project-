@@ -1,17 +1,17 @@
-G:\Java\Projeto-getter e setter\src\main\java\model\ConnectionManager.java
-G:\Java\Projeto-getter e setter\src\main\java\controller\cor.java
-G:\Java\Projeto-getter e setter\src\main\java\controller\saida.java
-G:\Java\Projeto-getter e setter\src\main\java\view\Entrada.java
-G:\Java\Projeto-getter e setter\src\main\java\model\Historico.java
-G:\Java\Projeto-getter e setter\src\main\java\view\Listar.java
-G:\Java\Projeto-getter e setter\src\main\java\model\Usuario.java
-G:\Java\Projeto-getter e setter\src\main\java\controller\cadastrar.java
-G:\Java\Projeto-getter e setter\src\main\java\controller\entrada.java
-G:\Java\Projeto-getter e setter\src\main\java\view\Saida.java
-G:\Java\Projeto-getter e setter\src\main\java\controller\marca.java
-G:\Java\Projeto-getter e setter\src\main\java\view\Login.java
-G:\Java\Projeto-getter e setter\src\main\java\view\Cadastro.java
-G:\Java\Projeto-getter e setter\src\main\java\controller\Listar.java
-G:\Java\Projeto-getter e setter\src\main\java\view\Principal.java
-G:\Java\Projeto-getter e setter\src\main\java\controller\login.java
-G:\Java\Projeto-getter e setter\src\main\java\model\Produto.java
+G:\Java\Projeto-produtos\src\main\java\view\Principal.java
+G:\Java\Projeto-produtos\src\main\java\model\Produto.java
+G:\Java\Projeto-produtos\src\main\java\model\dao\Listar.java
+G:\Java\Projeto-produtos\src\main\java\model\dao\entrada.java
+G:\Java\Projeto-produtos\src\main\java\model\dao\marca.java
+G:\Java\Projeto-produtos\src\main\java\view\Entrada.java
+G:\Java\Projeto-produtos\src\main\java\view\Listar.java
+G:\Java\Projeto-produtos\src\main\java\view\Saida.java
+G:\Java\Projeto-produtos\src\main\java\model\Usuario.java
+G:\Java\Projeto-produtos\src\main\java\model\ConnectionManager.java
+G:\Java\Projeto-produtos\src\main\java\model\Historico.java
+G:\Java\Projeto-produtos\src\main\java\model\dao\cadastrar.java
+G:\Java\Projeto-produtos\src\main\java\view\Cadastro.java
+G:\Java\Projeto-produtos\src\main\java\model\dao\saida.java
+G:\Java\Projeto-produtos\src\main\java\view\Login.java
+G:\Java\Projeto-produtos\src\main\java\model\dao\cor.java
+G:\Java\Projeto-produtos\src\main\java\model\dao\login.java

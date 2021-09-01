@@ -4,11 +4,11 @@
  * and open the template in the editor.
  */
 package view;
-import static controller.cadastrar.Cadastrar;
-import static controller.cor.ListarCor;
-import static controller.cor.ListarIdCor;
-import static controller.marca.ListarIdMarca;
-import static controller.marca.ListarMarca;
+import static model.dao.cadastrar.Cadastrar;
+import static model.dao.cor.ListarCor;
+import static model.dao.cor.ListarIdCor;
+import static model.dao.marca.ListarIdMarca;
+import static model.dao.marca.ListarMarca;
 import java.util.ArrayList;
 import java.util.Iterator;
 import model.Produto;

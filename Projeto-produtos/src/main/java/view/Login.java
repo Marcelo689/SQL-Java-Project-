@@ -5,7 +5,7 @@
  */
 package view;
 
-import static controller.login.Login;
+import static model.dao.login.Login;
 import static javax.swing.JOptionPane.showMessageDialog;
 import model.Usuario;
 

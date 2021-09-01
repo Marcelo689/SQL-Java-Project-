@@ -4,8 +4,8 @@
  * and open the template in the editor.
  */
 package view;
-import static controller.Listar.ListarCodigos;
-import static controller.entrada.Entrada;
+import static model.dao.Listar.ListarCodigos;
+import static model.dao.entrada.Entrada;
 import java.util.*;
 import java.text.ParseException;
 import java.time.LocalDate;

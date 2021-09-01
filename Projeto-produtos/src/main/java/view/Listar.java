@@ -5,10 +5,10 @@
  */
 package view;
 
-import static controller.Listar.ListarAll;
-import static controller.Listar.ListarCodigos;
-import static controller.Listar.ListarDescricao;
-import static controller.Listar.ListarSaldo;
+import static model.dao.Listar.ListarAll;
+import static model.dao.Listar.ListarCodigos;
+import static model.dao.Listar.ListarDescricao;
+import static model.dao.Listar.ListarSaldo;
 import java.util.ArrayList;
 import java.util.Iterator;
 import javax.swing.table.DefaultTableModel;
@@ -202,6 +202,8 @@ public class Listar extends javax.swing.JFrame {
 
     private void formWindowOpened(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowOpened
         // TODO add your handling code here:
+        DefaultTableModel model = (DefaultTableModel) Table.getModel();
+            
         if(comboBox.getSelectedItem().toString().equals("Todos"))
         {
             Iterator itr  = ListarCodigos().iterator();
@@ -221,8 +223,7 @@ public class Listar extends javax.swing.JFrame {
             String descricao  = p.get(j++).getDescricao();
             int saldo         = ListarSaldo(tempCodigo);
             
-            DefaultTableModel model = (DefaultTableModel) Table.getModel();
-            
+           
             model.addRow(new Object[]{descricao,tempCodigo,saldo});
             
         }
