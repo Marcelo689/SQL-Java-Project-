@@ -1,4 +1,4 @@
-Clique nos tres pontinhos e download zip.(para baixar o projeto)
+Clique no Code no link https://github.com/Marcelo689/SQL-Java-Project- e download zip.(para baixar o projeto)
 
 Instalar o java jdk para poder usar o java. 
 
