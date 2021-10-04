@@ -1,3 +1,5 @@
+Clique nos tres pontinhos e download zip.(para baixar o projeto)
+
 Instalar o java jdk para poder usar o java. 
 
 Instalar uma ide para utilizar o java, no meu caso irei utilizar Apache netbeans.
